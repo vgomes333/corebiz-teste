@@ -3,19 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Motorola eCommerce</title>
 </head>
 <body>
-    <div class="container">
-        <section class="header">
+    <div>
+        <!-- Start Header -->
+        <section class="container header">
             <div class="header-logo">
                 <img src="img/motorola.png" alt="Motorola Logo">
             </div>
-            <div class="header-search">
-                <input type="text">
+            
+            <!-- <div class="container-searchBox">
+                <input placeholder="O que você procura?" id="search-box" type="text" class="search-box" name="q" />
+                <label for="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                </label>
+            </div> -->
+            
+            <div class="header-actions">
+                <a href="#">
+                    <i class="fas fa-headset"></i>
+                    <span class="header-actions-label">fale conosco</span>
+                </a>
+                
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="header-actions-label">entrar</span>
+                </a>
+                
+                <a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="header-actions-label">carrinho</span>
+                </a>
             </div>
         </section>
+        <!-- End Header -->
+        
+        <!-- Start Navbar -->
+        <section class="navbar">
+            <a href="#">
+                Smartphones
+                <i class="navbar-dropdown-icon fas fa-chevron-down"></i>
+            </a>
+            <a href="#">
+                Acessórios
+                <i class="navbar-dropdown-icon fas fa-chevron-down"></i>
+            </a>
+            <a href="#">Moto snaps</a>
+            <a href="#">Hello novidades</a>
+            <a href="#">moto ofertas</a>
+        </section>
+        <!-- End Navbar -->
     </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 </body>
 </html>

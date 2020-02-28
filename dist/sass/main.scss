@@ -4,5 +4,12 @@
 // Variables
 @import 'helpers/variables.scss';
 
+// Normalize
+@import 'base/normalize';
+
+// Components
+@import 'components/searchBox';
+
 // Templates
 @import 'templates/header';
+@import 'templates/navbar';
