@@ -130,6 +130,57 @@ img {
   width: 100%;
   height: 100%; }
 
+.btn {
+  border: 0;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  width: 90%;
+  cursor: pointer; }
+  .btn-buy {
+    background-color: #3E8DDD;
+    color: #ffffff; }
+  .btn-moreWhite {
+    background-color: #ffffff;
+    color: #EB59B4; }
+  .btn-moreYellow {
+    background-color: #F2C94C;
+    color: black; }
+  .btn-sendMail {
+    background-color: #FF6A00;
+    color: ffffff; }
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 1cm auto; }
+  .banners-img-div {
+    position: relative;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; }
+  .banners .btn {
+    position: absolute;
+    bottom: 0.5em;
+    width: 10em; }
+  @media only screen and (min-width: 1248px) {
+    .banners {
+      flex-direction: row; } }
+
+.smartphone-description {
+  color: #333F48;
+  padding: 10px 0; }
+  .smartphone-description h1 {
+    font-size: 24px;
+    margin-bottom: 1em; }
+  .smartphone-description p {
+    line-height: 2em; }
+  .smartphone-description span {
+    color: #FF6A00;
+    text-decoration: underline;
+    float: right; }
+
 .header {
   color: black;
   height: 60px;
@@ -185,11 +236,7 @@ img {
   .produtos-title {
     color: #333F48;
     margin-top: 1cm;
-    width: 100%;
-    margin-left: 1cm; }
-    @media only screen and (min-width: 768px) {
-      .produtos-title {
-        margin-left: 10cm; } }
+    width: 100%; }
   .produtos-text {
     text-align: left; }
   .produtos-card {
@@ -227,19 +274,3 @@ img {
     font-size: 10px; }
   .produtos-preco {
     color: #333F48; }
-  .produtos-btnComprar {
-    background-color: #3E8DDD;
-    color: #ffffff;
-    border: 0;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 4px;
-    width: 90%; }
-
-.banners {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 1cm auto; }
-  .banners img {
-    padding: 10px 20px; }

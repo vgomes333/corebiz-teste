@@ -24,7 +24,7 @@ $(document).ready(function () {
                         + '<p class="produtos-valorAntigo">De: R$ 2.000,00</p>'
                         + '<p class="produtos-preco">Por: R$'+element[i].price+' em até <b>12X</b> de <b>R$ 149,91</b></p>'
                     + '</div>'
-                    + '<button class="produtos-btnComprar">COMPRAR</button>'
+                    + '<button class="btn btn-buy">COMPRAR</button>'
                 + '</div>';
 
                 $("#vitrineProdutos").html(produtos);

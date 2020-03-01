@@ -1,0 +1,43 @@
+.banners {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1cm auto;
+    
+    &-img-div {
+        position: relative;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn {
+        position: absolute;
+        bottom: 0.5em;
+        width: 10em;
+    }
+
+    @include mq ('desktop') {
+        flex-direction: row;
+    }
+}
+
+.smartphone-description {
+    color: #333F48;
+    padding: 10px 0;
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 1em;
+    }
+    
+    p{
+        line-height: 2em;
+    }
+    
+    span {
+        color: #FF6A00;
+        text-decoration: underline;
+        float: right;
+    }
+}
