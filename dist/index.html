@@ -42,7 +42,7 @@
         <!-- End Header -->
         
         <!-- Start Navbar -->
-        <section class="navbar">
+        <section class="container navbar">
             <a href="#">
                 Smartphones
                 <i class="navbar-dropdown-icon fas fa-chevron-down"></i>
@@ -56,8 +56,30 @@
             <a href="#">moto ofertas</a>
         </section>
         <!-- End Navbar -->
+        
+        <!-- Start Image Slider -->
+        <div class="slide-container">
+            <div class="main-content"> </div>
+            <div class="left-arrow"><i class="fas fa-chevron-circle-left"></i></div>
+            <div class="right-arrow"><i class="fas fa-chevron-circle-right"></i></div>
+            <div class="dot-container"> </div>
+        </div>
+        <!-- End Image Slider -->
+        
+        <div id="vitrineProdutos" class="produtos">
+            <div class="produtos-card">
+                <img src="img/produto.png" alt="Motorola">
+                <p>NOME DO APARELHO</p>
+                <p>De: R$ 2.000,00</p>
+                <p>Por: (valor do json) em até <b>12X</b> de <b>R$ 149,91</b></p>
+            </div>
+        </div>
     </div>
     
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/image-slider.js"></script>
+    <script src="js/getVitrine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 </body>
 </html>

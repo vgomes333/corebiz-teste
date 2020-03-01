@@ -8,8 +8,10 @@
 @import 'base/normalize';
 
 // Components
-@import 'components/searchBox';
+@import 'components/search-box';
+@import 'components/image-slider';
 
 // Templates
 @import 'templates/header';
 @import 'templates/navbar';
+@import 'templates/produtos';

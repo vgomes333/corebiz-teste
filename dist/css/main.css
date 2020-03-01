@@ -65,6 +65,71 @@ img {
     #search-box {
       width: 380px; } }
 
+.slide-container {
+  height: 200px; }
+  @media only screen and (min-width: 768px) {
+    .slide-container {
+      margin-top: 20px;
+      height: 350px; } }
+
+.left-arrow {
+  position: absolute;
+  top: 45%;
+  left: 10px;
+  font-size: 25px;
+  color: #00000063; }
+
+.right-arrow {
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  font-size: 25px;
+  color: #00000063; }
+
+.left-arrow > img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -2px;
+  opacity: .3;
+  transition: opacity 1s; }
+
+.right-arrow > img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 42px;
+  opacity: .5;
+  transition: opacity 1s; }
+
+.left-arrow > img:hover, .right-arrow > img:hover {
+  cursor: pointer;
+  opacity: 1; }
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ff9b15; }
+
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .6s ease;
+  margin: 0 2px; }
+
+.active, .dot:hover {
+  background-color: white;
+  height: 17px;
+  width: 17px; }
+
+.main-content, .responsive-img {
+  width: 100%;
+  height: 100%; }
+
 .header {
   color: black;
   height: 60px;
@@ -79,7 +144,7 @@ img {
     display: none; }
 
 .navbar {
-  padding: 10px 20px;
+  padding: 10px 0;
   height: 120px;
   border-top: 0.1mm solid #00000040;
   display: flex;
@@ -91,3 +156,18 @@ img {
     align-items: center; }
     .navbar a .navbar-dropdown-icon {
       margin-left: 10px; }
+  @media only screen and (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      height: 0;
+      padding-top: 30px; } }
+  @media only screen and (min-width: 1248px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: start;
+      height: 0;
+      padding-top: 30px; }
+      .navbar a {
+        margin: 0 10px; }
+        .navbar a:first-child {
+          margin-left: 0; } }

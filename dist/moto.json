@@ -1,0 +1,46 @@
+{
+    "products": {
+        "1": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "2": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "3": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "4": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "5": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "6": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        }
+    }
+}

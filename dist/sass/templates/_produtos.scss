@@ -1,0 +1,13 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1cm 0;
+    
+    &-card {
+        border: 1px solid #E2E2E2;
+        border-radius: 20px;
+        padding: 20px;
+        width: 75%;
+    }
+}
