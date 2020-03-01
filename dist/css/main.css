@@ -171,3 +171,67 @@ img {
         margin: 0 10px; }
         .navbar a:first-child {
           margin-left: 0; } }
+
+@media only screen and (min-width: 768px) {
+  #vitrineProdutos {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative; } }
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .produtos-title {
+    color: #333F48;
+    margin-top: 1cm;
+    width: 100%;
+    margin-left: 1cm; }
+    @media only screen and (min-width: 768px) {
+      .produtos-title {
+        margin-left: 10cm; } }
+  .produtos-text {
+    text-align: left; }
+  .produtos-card {
+    position: relative;
+    margin: 10px 0;
+    border: 1px solid #E2E2E2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    @media only screen and (min-width: 768px) {
+      .produtos-card {
+        width: auto;
+        height: auto;
+        margin: 4px;
+        flex: 1;
+        flex-basis: 20%; } }
+  .produtos-desconto {
+    border: 1px solid #3E8DDD;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #3E8DDD;
+    font-weight: 700;
+    position: absolute;
+    top: 1em;
+    left: 0.7em; }
+  .produtos-nome {
+    font-weight: 700;
+    color: #333F48; }
+  .produtos-valorAntigo {
+    text-decoration: line-through;
+    color: #C4BEB6;
+    font-size: 10px; }
+  .produtos-preco {
+    color: #333F48; }
+  .produtos-btnComprar {
+    background-color: #3E8DDD;
+    color: #ffffff;
+    border: 0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    width: 90%; }
