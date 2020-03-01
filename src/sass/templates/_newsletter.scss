@@ -1,0 +1,44 @@
+.newsletter {
+    width: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    
+    &-title {
+        margin-bottom: 1em;
+        
+        a {
+            color: #3E8DDD;
+        }
+    }
+    
+    &-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        @include mq ('desktop') {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        input {
+            margin-bottom: 0.6em;
+            width: 100%;
+            
+            @include mq ('desktop') {
+                width: 28em;
+            }
+        }
+        
+        .btn {
+            width: 10em;
+            height: 30px;
+            padding: 0;
+        }
+    }
+}
