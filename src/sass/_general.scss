@@ -1,3 +1,43 @@
+.fixed-header {
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    z-index: 1;
+}
+
+.master-body {
+    position: absolute;
+    top: 6cm;
+
+    @include mq ('tablet') {
+        top: 4cm;
+    }
+
+    @include mq ('desktop') {
+        top: 4cm;
+    }
+}
+
+.helper {
+    position: fixed;
+    bottom: 1cm;
+    right: 1cm;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #3E8DDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+        font-size: 30px;
+        color: #ffffff;
+    }
+}
+
 .banners {
     display: flex;
     flex-direction: column;

@@ -197,6 +197,39 @@ input[type=checkbox]:checked:disabled + label:before {
   background-color: #bfb;
   border-color: #bfb; }
 
+.fixed-header {
+  position: fixed;
+  background: #ffffff;
+  width: 100%;
+  z-index: 1; }
+
+.master-body {
+  position: absolute;
+  top: 6cm; }
+  @media only screen and (min-width: 768px) {
+    .master-body {
+      top: 4cm; } }
+  @media only screen and (min-width: 1248px) {
+    .master-body {
+      top: 4cm; } }
+
+.helper {
+  position: fixed;
+  bottom: 1cm;
+  right: 1cm;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #3E8DDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+  .helper svg {
+    font-size: 30px;
+    color: #ffffff; }
+
 .banners {
   display: flex;
   flex-direction: column;
@@ -263,7 +296,7 @@ input[type=checkbox]:checked:disabled + label:before {
     .navbar {
       flex-direction: row;
       justify-content: start;
-      height: 0;
+      height: 50px;
       padding-top: 30px; }
       .navbar a {
         margin: 0 10px; }
@@ -353,3 +386,40 @@ input[type=checkbox]:checked:disabled + label:before {
       width: 10em;
       height: 30px;
       padding: 0; }
+
+.footer {
+  background-color: #333F48;
+  color: #72899B;
+  padding: 20px;
+  font-size: 11px; }
+  .footer a {
+    color: #72899B; }
+  .footer h1 {
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 16px; }
+  .footer-div-body {
+    display: flex;
+    justify-content: space-between; }
+    .footer-div-body-location-country {
+      color: #ffffff;
+      display: flex;
+      align-items: center; }
+      .footer-div-body-location-country img {
+        width: 25px;
+        margin: 0 10px; }
+      .footer-div-body-location-country label {
+        text-decoration: underline;
+        cursor: pointer; }
+    .footer-div-body-location-address {
+      margin-top: 1cm;
+      line-height: 1.6em; }
+    .footer-div-body-support, .footer-div-body-about {
+      line-height: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 350px; }
+    .footer-div-body-sales {
+      width: 90%;
+      color: #fff; }

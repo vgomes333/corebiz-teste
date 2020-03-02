@@ -25,7 +25,7 @@
     @include mq ('desktop'){
         flex-direction: row;
         justify-content: start;
-        height: 0;
+        height: 50px;
         padding-top: 30px;
 
         a {
