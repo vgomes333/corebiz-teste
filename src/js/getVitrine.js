@@ -9,7 +9,7 @@ $(document).ready(function () {
     $.getJSON('../moto.json', function(data) {
         
         var produtos = '';
-        $.each(data, function(element) {
+        $.each(data, function(index, element) {
             console.log(element)
             
             var count = Object.keys(element).length;
