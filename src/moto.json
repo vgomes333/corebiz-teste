@@ -41,6 +41,20 @@
             "image": "img/produto.png",
             "price": 1.799,
             "description": "Motorola One Action"
+        },
+        "7": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
+        },
+        "8": {
+            "id": 1,
+            "name": "Motorola One Action",
+            "image": "img/produto.png",
+            "price": 1.799,
+            "description": "Motorola One Action"
         }
     }
 }

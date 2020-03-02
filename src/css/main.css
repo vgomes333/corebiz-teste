@@ -332,6 +332,27 @@ input[type=checkbox]:checked:disabled + label:before {
         .navbar a:first-child {
           margin-left: 0; } }
 
+.spotlight {
+  margin-top: 1cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  @media only screen and (min-width: 768px) {
+    .spotlight {
+      display: flex;
+      flex-flow: row wrap;
+      position: relative; } }
+  .spotlight img {
+    max-width: 200px;
+    margin-bottom: 0.3cm; }
+  @media only screen and (min-width: 768px) {
+    .spotlight-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; } }
+
 @media only screen and (min-width: 768px) {
   #vitrineProdutos {
     display: flex;
