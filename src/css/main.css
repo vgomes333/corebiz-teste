@@ -148,7 +148,7 @@ img {
     color: black; }
   .btn-newsletter {
     background-color: #FF6A00;
-    color: ffffff; }
+    color: #ffffff; }
 
 .input-default {
   border: 1px solid #D9D9D9;
@@ -196,6 +196,34 @@ input[type=checkbox]:checked:disabled + label:before {
   transform: scale(1);
   background-color: #bfb;
   border-color: #bfb; }
+
+.dropbtn {
+  color: black;
+  border: none; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #ddd; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
 
 .fixed-header {
   position: fixed;
@@ -296,6 +324,7 @@ input[type=checkbox]:checked:disabled + label:before {
     .navbar {
       flex-direction: row;
       justify-content: start;
+      align-items: center;
       height: 50px;
       padding-top: 30px; }
       .navbar a {
