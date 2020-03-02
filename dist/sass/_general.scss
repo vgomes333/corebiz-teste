@@ -1,0 +1,83 @@
+.fixed-header {
+    position: fixed;
+    background: #ffffff;
+    width: 100%;
+    z-index: 1;
+}
+
+.master-body {
+    position: absolute;
+    top: 6cm;
+
+    @include mq ('tablet') {
+        top: 4cm;
+    }
+
+    @include mq ('desktop') {
+        top: 4cm;
+    }
+}
+
+.helper {
+    position: fixed;
+    bottom: 1cm;
+    right: 1cm;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #3E8DDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+        font-size: 30px;
+        color: #ffffff;
+    }
+}
+
+.banners {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 1cm auto;
+    
+    &-img-div {
+        position: relative;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn {
+        position: absolute;
+        bottom: 0.5em;
+        width: 10em;
+    }
+
+    @include mq ('desktop') {
+        flex-direction: row;
+    }
+}
+
+.smartphone-description {
+    color: #333F48;
+    padding: 10px 0;
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 1em;
+    }
+    
+    p{
+        line-height: 2em;
+    }
+    
+    span {
+        color: #FF6A00;
+        text-decoration: underline;
+        float: right;
+    }
+}

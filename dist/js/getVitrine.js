@@ -1,15 +1,8 @@
-/**
- * Função Responsável por construir os cards dos produtos da vitrine
- * 
- * 
- * @param   {Object} element   Parametro obrigatório
- */
-
 $(document).ready(function () {
     $.getJSON('../moto.json', function(data) {
         
         var produtos = '';
-        $.each(data, function(element) {
+        $.each(data, function(index, element) {
             console.log(element)
             
             var count = Object.keys(element).length;

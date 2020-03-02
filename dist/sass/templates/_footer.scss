@@ -1,0 +1,65 @@
+.footer {
+    background-color: #333F48;
+    color: #72899B;
+    padding: 20px;
+    font-size: 11px;
+    
+    a {
+        color: #72899B;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    &-div {
+        
+        &-body {
+            display: flex;
+            justify-content: space-between;
+            
+            &-location {
+                
+                
+                &-country {
+                    color: #ffffff;
+                    display: flex;
+                    align-items: center;
+                    
+                    img {
+                        width: 25px;
+                        margin: 0 10px;
+                    }
+                    
+                    label {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                
+                &-address {
+                    margin-top: 1cm;
+                    line-height: 1.6em;                   
+                }
+            }
+            
+            &-support, &-about {
+                line-height: 2em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 350px;
+            }
+            &-sales {
+                width: 90%;
+                color: #fff;
+                
+                &-contact {
+                    
+                }
+            }
+        }
+    }
+}
